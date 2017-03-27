@@ -13,7 +13,7 @@
 
 <%
 	String loc = request.getParameter("l");
-	loc = loc == null? "C:\\UserTemp\\Downloads" : loc;
+	loc = loc == null? "/home/all/downloads" : loc;
 	File folder = new File(loc);
 
 %>

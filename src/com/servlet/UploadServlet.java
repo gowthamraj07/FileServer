@@ -21,7 +21,7 @@ public class UploadServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
 
-    private final String UPLOAD_DIRECTORY = "C:\\UserTemp\\Downloads";
+    private final String UPLOAD_DIRECTORY = "/home/all/downloads";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
